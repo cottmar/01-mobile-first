@@ -1,8 +1,5 @@
 
-h2 {
-  margin-bottom: 0%;
-}
 
-.heading-group-h1, .main-nav {
+.heading-group-h1, .main-nav ul {
   background-color: rgb(247, 228, 166);
 }
