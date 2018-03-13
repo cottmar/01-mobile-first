@@ -3,16 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
-
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="vendor/styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
+  <link rel="stylesheet" type="text/css" href="styles/base.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="styles/modules.css">
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
+  <!-- The meta tag is added in as a viewport and using device width and scale for the "mobile first" method. By loading normalize.css first, we are erasing all of the default settings similar to the reset.css from 201. Next, we are loading icons followed by stylesheets according to SMACCS method. -->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -32,7 +30,7 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
-
+      <div class="icon-menu"></div>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
