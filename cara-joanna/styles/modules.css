@@ -1,0 +1,10 @@
+.icon-home, .icon-address-book, .icon-twitter3, .icon-github {
+  text-decoration: none;
+  color: grey;
+  font-size: 2em;
+}
+
+.main-nav li {
+  padding: 1em;
+  border-bottom: solid grey 0.1em;
+}
