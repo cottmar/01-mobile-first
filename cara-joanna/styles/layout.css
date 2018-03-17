@@ -1,3 +1,15 @@
-.icon-menu{
-  float:right;
+#articles {
+  margin-left:2%;
+}
+
+.main-nav ul {
+  padding-bottom: 3%;
+}
+
+address, time {
+  display:inline;
+}
+
+main h1 {
+  padding-left:0;
 }
