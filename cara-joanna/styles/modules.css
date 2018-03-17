@@ -1,43 +1,48 @@
-.icon-home, .icon-address-book, .icon-twitter3, .icon-github {
-  text-decoration: none;
+li a {
   color: grey;
-  font-size: 2em;
-
-.icon-menu {
-  font-size: 3em;
-}
-
-.main-nav li {
-  padding: 1em;
-  border-bottom: solid grey 0.1em;
-}
-a {
+  font-size: 6vw;
   text-decoration: none;
+
 }
-@media only screen and (min-width:641px){
-      .icon-menu{
-       display: none;
-       }
+.icon-menu {
+  position:absolute;
+  right:0;
+  top:0;
+  margin:0;
+  font-size:3em;
+}
+.main-nav li{
+  display:none;
+  padding: 3%;
+
+}
+ul{
+  padding-left:0;
+}
+.main-nav:hover li {
+  display:block;
+}
+
+@media screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+
   .main-nav li {
     display: inline;
-    border-bottom: none;
-  } 
-  .icon-home, .icon-address-book, .icon-twitter3, .icon-github {
-    text-decoration: none;
-    color: grey;
-    font-size: 2em;
   }
+
+  li a {
+    font-size: 3vw;
   }
+
+ .main-nav:hover li {
+   display: inline;
+ }
+}
 
 
 
-/* .icon-menu:hover {
-    .main-nav{
-      display: block;
-      background-color: blue;
-    }
-  }
-} */
 
 
 

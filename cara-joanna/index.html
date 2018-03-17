@@ -4,23 +4,21 @@
   <meta charset="UTF-8">
   <title>Lab 1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" type="text/css" href="vendor/styles/normalize.css"> -->
-  <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
-  <link rel="stylesheet" type="text/css" href="styles/base.css">
-  <link rel="stylesheet" type="text/css" href="styles/layout.css">
-  <link rel="stylesheet" type="text/css" href="styles/modules.css">
-  <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- The meta tag is added in as a viewport and using device width and scale for the "mobile first" method. By loading normalize.css first, we are erasing all of the default settings similar to the reset.css from 201. Next, we are loading icons followed by stylesheets according to SMACCS method. -->
-
-  <!-- REVIEW: This is the favicon -->
+  <link rel="stylesheet" href="vendor/styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="vendor/styles/icons.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
+  <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
+  <!-- The ordering is important - we start from loading the "reset" (normalize.css) and then go to base/icons/layout so we have something to load the modules.css on. -->
 </head>
 <body>
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!--The website goes into the history of CSS on different browsers: what was compatible on the browser and how it was to be written. To remove the float from the rest of the elements, use the clear: both in CSS - The float will clear on the rest of the elements. You can apply it to any parent element in which you need to clear the floats in the HTML.-->
 
     <section class="heading-group-h1">
        
